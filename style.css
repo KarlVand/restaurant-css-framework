@@ -1,1 +1,69 @@
 /*# sourceMappingURL=style.css.map */
+
+* { 
+    color:white;
+
+}
+
+.navbar a {
+
+    color: brown;
+    font-size: 1.5rem;
+    border-color: brown;
+}
+
+.navbar a:hover, b :active {
+    color: red;
+}
+
+.navbar-toggler {
+    color: red;
+}
+
+hr {
+    color: red;
+    height:15px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.nav-link :active{
+    color: red;
+    font-weight: 800;
+}
+
+.nav-item :active :target {
+    color: red;
+    font-weight: 800;
+}
+
+.container {
+    background-color: yellow;
+}
+
+.nav-link {
+    color: brown;
+}
+
+
+a.nav-link {
+    padding :10px;
+    padding-left: 25px;
+}
+
+.asideleft p {
+    background-color: yellow;
+    color: black;
+    padding: 10%;
+    width: 100%;
+}
+
+.asideleft p {
+    font-weight: 700;
+
+}
