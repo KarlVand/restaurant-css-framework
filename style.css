@@ -5,6 +5,10 @@
 
 }
 
+.navbar-brand {
+    padding-left: 2%;
+}
+
 .navbar a {
 
     color: brown;
@@ -20,22 +24,9 @@
     color: red;
 }
 
-hr {
-    color: red;
-    height:15px;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-}
 
-.navbar-brand {
-    padding-left: 50px;
-}
 
-.nav-link :active{
-    color: red;
-    font-weight: 800;
-}
+
 
 .nav-item :active :target {
     color: red;
