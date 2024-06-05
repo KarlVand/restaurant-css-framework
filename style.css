@@ -1,60 +1,89 @@
-/*# sourceMappingURL=style.css.map */
+/* NAVIGATION TOP MENU */
 
-* { 
-    color:white;
-
+* {
+  color: white;
 }
 
 .navbar-brand {
-    padding-left: 2%;
+  padding-left: 2%;
 }
 
 .navbar a {
-
-    color: brown;
-    font-size: 1.5rem;
-    border-color: brown;
+  color: brown;
+  font-size: 1.5rem;
+  border-color: brown;
 }
 
-.navbar a:hover, b :active {
-    color: red;
+.navbar a:hover,
+b :active {
+  color: red;
 }
 
-.navbar-toggler {
-    color: red;
+.navbar-toggler-icon {
+  color: red;
 }
-
-
-
-
 
 .nav-item :active :target {
-    color: red;
-    font-weight: 800;
+  color: red;
+  font-weight: 800;
 }
 
-.container {
-    background-color: yellow;
+.container aside {
+  background-color: yellow;
 }
 
 .nav-link {
-    color: brown;
+  color: brown;
 }
-
 
 a.nav-link {
-    padding :10px;
-    padding-left: 25px;
+  padding: 10px;
+  padding-left: 25px;
 }
 
-.asideleft p {
-    background-color: yellow;
-    color: black;
-    padding: 10%;
-    width: 100%;
+button {
+  color: brown;
 }
 
-.asideleft p {
-    font-weight: 700;
+/* CONTENT */
 
+.jumbo {
+  border-radius: 18px;
+  padding: 18px;
+  background-color: gray;
+}
+
+.panel1 {
+  border-radius: 18px;
+  background-color: brown;
+  height: auto;
+}
+
+.panel2 {
+  border-radius: 18px;
+  background-color: rgb(211, 126, 22);
+}
+
+.row-content {
+  justify-self: center;
+}
+
+/* CONTACT */
+
+input.form-control.message {
+  height: 150px;
+  max-width: 100%;
+}
+
+.container-form {
+  padding: 36px;
+}
+
+.form-label {
+  color: brown;
+  font-weight: 700;
+}
+
+.form-text {
+  color: red;
 }
