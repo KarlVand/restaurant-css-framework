@@ -4,37 +4,46 @@
   color: white;
 }
 
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
 .navbar a {
-  color: brown;
+  color: red;
   font-size: 1.8rem;
-  border-color: brown;
 }
 
 .navbar a:hover,
 b :active {
+  color: yellow;
+}
+
+.navbar-toggler {
   color: red;
+}
+
+a.navbar-brand {
+  margin-left: 2%;
 }
 
 a.nav-item.nav-link {
   margin: 14%;
 }
 
-/* CONTENT */
+/* INDEX */
 
 .jumbo {
-  border-radius: 54px;
-  padding: 18px;
-  background-color: gray;
-  text-align: center;
-  height: 69vh;
   background-image: url(assets/bg-texture.png);
+  border-bottom-left-radius: 54px;
+  border-bottom-right-radius: 54px;
+  height: 92vh;
+  width: 100vw;
   border-style: solid;
+  border-color: red;
   border-width: 2px;
-  border-color: yellow;
-}
-
-.jumbo p {
-  color: white;
+  margin-top: -5px;
 }
 
 .periperi {
@@ -60,13 +69,7 @@ h4 {
   bottom: -10%;
 }
 
-.offer {
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 2.5rem;
-}
+/* OFFER OF THE WEEK */
 
 .panel1 {
   border-radius: 18px;
@@ -78,6 +81,13 @@ h4 {
   border-color: red;
 }
 
+.offer {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
 .panel2 {
   border-radius: 18px;
   background-color: rgb(211, 126, 22);
