@@ -4,10 +4,6 @@
   color: white;
 }
 
-.navbar-brand {
-  padding-left: 2%;
-}
-
 .navbar a {
   color: brown;
   font-size: 1.8rem;
@@ -19,21 +15,8 @@ b :active {
   color: red;
 }
 
-.navbar-toggler-icon {
-  color: red;
-}
-
-.nav-link {
-  color: brown;
-}
-
-a.nav-link {
-  padding: 10px;
-  padding-left: 25px;
-}
-
-button {
-  color: brown;
+a.nav-item.nav-link {
+  margin: 14%;
 }
 
 /* CONTENT */
