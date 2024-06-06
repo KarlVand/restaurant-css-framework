@@ -174,7 +174,7 @@ h5.mb-1 {
 }
 
 h5.mb-1:active {
-  color: white;
+  color: brown;
 }
 
 p.mb-1 {
@@ -189,7 +189,7 @@ a.list-group-item:hover {
   color: white;
 }
 
-a.list-group-item::after {
+a.list-group-item:active {
   background-color: brown;
   color: white;
 }
