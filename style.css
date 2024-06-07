@@ -9,8 +9,36 @@ body {
   width: 100%;
   height: 100%;
   margin: auto;
+  left: -12px;
 }
 
+.texture {
+  position: absolute;
+  top: -10px;
+  margin-left: -10%;
+  width: 120%;
+  height: 150%;
+  background-image: url(./assets/carbon-fibre-big.png);
+  background-repeat: repeat;
+  opacity: 60%;
+  border-top: 3px solid;
+  border-color: red;
+  z-index: -1;
+}
+
+.texture2 {
+  position: absolute;
+  top: -10px;
+  margin-left: -10%;
+  width: 120%;
+  height: 150%;
+  background-image: url(./assets/45-degree-fabric-light.png);
+  background-repeat: repeat;
+  opacity: 60%;
+  border-top: 3px solid;
+  border-color: red;
+  z-index: -1;
+}
 .navbar a {
   color: red;
   font-size: 1.8rem;
@@ -40,7 +68,8 @@ button.navbar-toggler {
 /* LAYOUT */
 
 .menu {
-  margin-top: 27vh;
+  margin-top: 30vh;
+  margin-bottom: 10vh;
 }
 .restos {
   margin-top: 27vh;
@@ -69,10 +98,10 @@ button.navbar-toggler {
 }
 
 .jumbimage {
-  position: relative;
-  margin-top: 20vh;
+  margin-top: 36vh;
   object-fit: contain;
   float: left;
+  z-index: 3;
 }
 .periperi {
   margin: auto;
@@ -81,7 +110,6 @@ button.navbar-toggler {
 }
 
 .jumbitext {
-  position: relative;
   margin-top: 30vh;
   right: 0;
   margin-right: 5%;
@@ -108,7 +136,7 @@ h4 {
 /* OFFER OF THE WEEK */
 
 .panels {
-  margin-top: 69%;
+  margin-top: auto;
 }
 .panel1 {
   border-radius: 18px;
@@ -129,7 +157,20 @@ h4 {
 }
 .panel2 {
   border-radius: 18px;
-  background-color: rgb(211, 126, 22);
+  background-color: gray;
+  padding: 5%;
+  text-align: justify;
+  box-sizing: border-box;
+  object-fit: contain;
+  text-align: justify;
+}
+
+.slaw {
+  position: relative;
+  text-align: justify;
+}
+.imgslaw {
+  object-fit: fill;
 }
 
 .row-content {
@@ -156,6 +197,10 @@ input.form-control.message {
   color: red;
 }
 
+.fillform {
+  position: relative;
+  margin-top: 105px;
+}
 .cadre-contact {
   border-radius: 54px;
   border-style: solid;
