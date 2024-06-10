@@ -85,6 +85,7 @@ button.navbar-toggler {
 /* INDEX */
 
 .jumbo {
+  position: relative;
   background-image: url(assets/bg-texture.png);
   border-bottom-left-radius: 54px;
   border-bottom-right-radius: 54px;
@@ -251,8 +252,8 @@ input.form-control.message {
 }
 
 .slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
   background-color: red;
   opacity: 0.75;
