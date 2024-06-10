@@ -40,59 +40,74 @@
           <a class="nav-item nav-link" href="./index.html">Home</a>
           <a class="nav-item nav-link" href="./menu.html">Menu</a>
           <a class="nav-item nav-link" href="./restaurants.html">Restaurant</a>
-          <a class="nav-item nav-link" href="./pictures.html">Pictures</a>
+          <a class="nav-item nav-link" href="./pictures-bxl.html">Pictures</a>
           <a class="nav-item nav-link" href="./contact.html">Contact</a>
         </div>
       </div>
     </nav>
 
     <!-- SPECIFIC TO PAGE -->
-    <script>
-
-        const loadSnippet = number => {
-        fetch(`./snippet-${number}.html`).then(res => {
-          if (res.ok);
-        then(htmlSnippet => {
-          targetEl.innerHTML = htmlSnippet;
-        });
-      });
-    </script>
-    <div class="container pics justify-content-center">
-      <div class="row">
-        <div id="target" class="pictures col-11"></div>
-
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
-            <li>
-              <button
-                type="submit"
-                class="btn btn-dark"
-                onclick="loadSnippet(1)"
+    <section class="container">
+      <div class="slider-wrapper justify-content-center">
+        <div class="slider">
+          <img
+            id="slide-1"
+            src="./assets/Pictures/Feature-5-1024x640-1208651506.jpg"
+            alt=""
+          />
+          <img
+            id="slide-2"
+            src="./assets/Pictures/food-porn-17-286027242.jpg"
+            alt=""
+          />
+          <img
+            id="slide-3"
+            src="./assets/Pictures/food-porn-20-1007738108.jpg"
+            alt=""
+          />
+          <img
+            id="slide-4"
+            src="./assets/Pictures/food-porn-245262979.jpg"
+            alt=""
+          />
+          <img id="slide-5" src="./assets/Pictures/th-3037552108.jpeg" alt="" />
+        </div>
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+          <a href="#slide-5"></a>
+        </div>
+        <nav
+          class="picnav justify-content-center"
+          aria-label="Page navigation col-lg-8"
+        >
+          <ul class="pagination pagination-lg">
+            <li class="page-item">
+              <a
+                class="page-link active bg-black text-danger border-danger"
+                href="./pictures-bxl.html"
+                >BXL</a
               >
-                1
-              </button>
             </li>
             <li class="page-item">
-              <button
-                onclick="loadSnippet(2)"
-                class="btn btn-dark"
-                type="submit"
+              <a
+                class="page-link bg-black text-danger border-danger"
+                href="./pictures-dam.html"
+                >DAM</a
               >
-                2
-              </button>
             </li>
             <li class="page-item">
-              <button
-                onclick="loadSnippet(3)"
-                class="btn btn-dark"
-                type="submit"
+              <a
+                class="page-link bg-black text-danger border-danger"
+                href="./pictures-ldn.html"
+                >LDN</a
               >
-                3
-              </button>
             </li>
           </ul>
         </nav>
       </div>
-    </div>
+    </section>
   </body>
 </html>
