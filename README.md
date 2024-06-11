@@ -19,7 +19,7 @@ J'ai du changer mon angle d'attaque et apres un petit nettoyage par le vide, je 
 
 Je me suis egalement retrouvé avec un fichier css tres long et je ne penses pas que ce soit le but de bootstrap...
 
-Pour etre honnete, j'approcherais le sujet d'une maniere plus informée sur un prochain projet, au final sur celui-ci je finis par passer plus de temps a chipoter qu'a autre chose.
+Pour etre honnete, j'approcherais le sujet d'une maniere plus informée sur un prochain projet, au final sur celui-ci je finis par passer plus de temps a chipoter qu'a autre chose. Je pense que j'ai voulu utiliser Bstrap avec la mauvaise philosophie mais j'ai (mieux) compris comment l'utiliser pour l'avenir. J'ai hate de commencer un nouveau projet avec Sass, ca m'as l'air d'etre un outil puissant.
 
 > > PS. Mon slider fonctionne correctement sur Firefox ( pas sur Chrome, ni en local d'ailleurs )
 
