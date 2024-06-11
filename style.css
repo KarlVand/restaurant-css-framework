@@ -50,8 +50,9 @@ b :active {
   color: yellow;
 }
 
-.navbar-toggler {
+.navbar-toggler-icon {
   color: red;
+  background-color: red;
 }
 
 a.navbar-brand {
@@ -160,11 +161,16 @@ h4 {
 .panel2 {
   border-radius: 18px;
   background-color: gray;
-  padding: 5%;
+  padding: 2%;
   text-align: justify;
   box-sizing: border-box;
   object-fit: contain;
   text-align: justify;
+}
+
+.container-slaw {
+  margin: auto;
+  object-fit: contain;
 }
 
 .slaw {
@@ -172,7 +178,7 @@ h4 {
   text-align: justify;
 }
 .imgslaw {
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .row-content {
