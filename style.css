@@ -9,7 +9,6 @@ body {
   width: 100%;
   height: 100%;
   margin: auto;
-  margin-top: 16rem;
   left: -12px;
 }
 
@@ -124,8 +123,7 @@ h4 {
   text-transform: uppercase;
   word-spacing: 2%;
   line-height: 120%;
-  white-space: nowrap;
-  text-align: right;
+  text-align: center;
 }
 
 .jumbotxt {
@@ -162,14 +160,22 @@ h4 {
   border-radius: 18px;
   background-color: gray;
   padding: 2%;
+  height: fit-content;
   text-align: justify;
   box-sizing: border-box;
   object-fit: contain;
   text-align: justify;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
 }
 
 .container-slaw {
   margin: auto;
+  object-fit: contain;
+}
+
+.slawbox {
   object-fit: contain;
 }
 
